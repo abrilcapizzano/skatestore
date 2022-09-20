@@ -1,0 +1,82 @@
+.dark {
+  background-color: black;
+}
+
+.dark h1 {
+  color: white;
+}
+
+.dark #hero-text p {
+  color: white;
+}
+
+.dark #pay-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dark #pay-home h1 {
+  color: white;
+  font-size: 32px;
+}
+
+.dark article {
+  background-color: #191919;
+  color: white;
+}
+
+.dark .p-text {
+  color: white;
+}
+
+.dark #carrito {
+  background-color: #191919;
+}
+
+.dark #carrito p {
+  color: white;
+}
+
+.dark #carrito h4 {
+  color: white;
+}
+
+.dark #carrito li {
+  color: white;
+  border: 1px solid white;
+}
+
+.dark #carrito span {
+  color: white;
+}
+
+.dark #carrito button {
+  background-color: white;
+}
+
+.dark #seccion-productos {
+  color: white;
+}
+
+.dark #seccion-productos .noExiste {
+  background-color: transparent;
+  color: white;
+}
+
+.dark #seccion-productos a {
+  background-color: transparent;
+  color: white;
+}
+
+.dark #seccion-productos p {
+  color: white;
+}
+/*# sourceMappingURL=darkmode.css.map */

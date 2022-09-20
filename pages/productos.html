@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<header>
+    <button class="dark-mode" class="btn btn-primary"><img src="https://static.thenounproject.com/png/1664849-200.png"
+            alt=""></button>
+            <img class="logo"
+            src="../img/logo-of.png"
+            alt="">
+    <button><a href="../index.html">Inicio</a></button>
+    <section id="cart-seccion">
+     <button id="openCarrito"><img class="cart-img" src="../img/carrito.png"alt=""> <span id="contadorCarrito" class="contadorSpan">0</span> </button> 
+        <div id="carrito-container" class="carrito-container">
+            <div id="carrito" class="my-carrito">
+                <div id="divBotones">
+                    <button id="btnSeguir">Seguir comprando</button>
+                    <button id="btnPay">Pagar</button>
+                    <button id="btnVaciar">Vaciar</button>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <form class="d-flex">
+        <input
+          class="form-control me-2"
+          id="input-buscador"
+          type="search"
+          placeholder="Search"
+          aria-label="Search"
+        />
+        <button id= 'boton-submit'class="btn" type="submit">Search</button>
+      </form>
+</header>
+<section id="seccion-productos">
+</section>
+<footer>
+
+
+
+  <form id="my-form" action="https://formspree.io/f/maykqzgo" method="POST">
+    <label>Email:</label>
+    <input type="email" name="email" required="" placeholder="tuemail@coderhouse.com">
+    <button id="my-form-button" class="boton-news">Suscribite</button>
+    <p id="my-form-status"></p>
+  </form>
+
+      <img class="logo"
+      src="../img/logo-of.png"
+      alt="">
+      <div>
+        <img class="social-media" src="../img/twitter.svg" alt=""><p>@skatestore</p> 
+        <img class="social-media" src="../img/facebook.svg" alt=""> <p>The Skate Store</p>
+        <img class="social-media" src="../img/instagram.svg" alt=""> <p>@skatestore</p>
+    </div>
+    </footer>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script defer src="../js/sweet.js"></script>
+<script defer src="../js/darkmode.js"></script>
+<script defer src="../js/carrito.js"></script>
+<script>
+  var form = document.getElementById("my-form");
+  
+  async function handleSubmit(event) {
+    event.preventDefault();
+    var status = document.getElementById("my-form-status");
+    var data = new FormData(event.target);
+    fetch(event.target.action, {
+      method: form.method,
+      body: data,
+      headers: {
+          'Accept': 'application/json'
+      }
+    }).then(response => {
+      if (response.ok) {
+        status.innerHTML = "Gracias por suscribirte";
+        form.reset()
+      } else {
+        response.json().then(data => {
+          if (Object.hasOwn(data, 'errors')) {
+            status.innerHTML = data["errors"].map(error => error["message"]).join(", ")
+          } else {
+            status.innerHTML = "Opa! Hubo un problema al registrate a nuestro Newsletter"
+          }
+        })
+      }
+    }).catch(error => {
+      status.innerHTML = "Opa! Hubo un problema al registrate a nuestro Newsletter"
+    });
+  }
+  form.addEventListener("submit", handleSubmit)
+</script>
+</body>
+
+</html>

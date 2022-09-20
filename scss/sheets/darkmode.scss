@@ -1,0 +1,61 @@
+.dark {
+    background-color: black;
+    h1{
+         color: white;
+    }
+    #hero-text{
+    p{color: white;}
+   
+    }
+    #pay-home{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1{
+            color: white;
+        font-size: 32px;
+        }
+    }
+    article{
+        background-color:  rgb(25, 25, 25);
+        color: white;
+    }
+    .p-text{
+        color: white;
+    }
+    #carrito{
+        background-color: rgb(25, 25, 25);
+           p{
+        color: white;
+
+    }
+    h4{color: white;
+    }
+    li{color: white;
+        border: 1px solid white;
+    }
+    span{
+        color: white;
+    }
+    button{
+        background-color: white;
+    }
+    .eliminar{
+        background-color: red;
+    }
+    }
+    #seccion-productos{ 
+        color: white;
+        .noExiste{
+        background-color: transparent;
+        color: white}
+        a{
+            background-color: transparent;
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    }
+
+}

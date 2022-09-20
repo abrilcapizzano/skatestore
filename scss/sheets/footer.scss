@@ -1,0 +1,69 @@
+footer {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+ background-color:#050827;
+    height: 350px;
+    color: white;
+    margin-top: 120px;
+    .social-media{
+        width: 40px;
+    }
+    .logo{
+        width: 120px;
+        height: 160px;
+    }
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+h6 {
+    color: white;
+    font-size: 24px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+}
+
+.newsletter {
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+
+    .container.news {
+        padding: 20px;
+        background-color: transparent;
+    }
+
+    input[type=text] {
+        width: 100%;
+        height: 32px;
+        text-align: start;
+    }
+
+    input[type=submit] {
+        text-align: center;
+        width: 100%;
+        height: 40px;
+        margin: 8px 0;
+        box-sizing: border-box;
+    }
+    input[type=submit]:hover {
+        opacity: 0.8;
+    }
+
+    h6 {
+        color: white;
+        font-size: 32px;
+    }
+
+    p {
+        color: white;
+        font-size: 20px;
+    }
+}

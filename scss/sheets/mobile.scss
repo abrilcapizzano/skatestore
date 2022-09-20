@@ -1,0 +1,125 @@
+@media screen and (min-width:200px) and (max-width:768px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+        form{
+            justify-self: center;
+        }
+
+        .redes {
+            justify-self: center;
+        }
+        .logo{
+            justify-self: center;
+        }
+        div {
+            justify-self: center;
+        }
+    }
+
+
+
+
+
+
+    .cart-img {
+        width: 40px;
+    }
+    #cart-seccion {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .carrito-container {
+        background-color: rgba(247, 83, 83, 0.3);
+        width: 100%;
+        height: auto;
+        position: fixed;
+        inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .3s ease-in-out;
+    }
+    
+    #carrito {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        width: 140vw;
+        justify-items: center;
+            height:auto;
+            background-color: white;
+        padding: 40px;
+        border-radius: 20px;
+        color: black;
+    }
+    
+    .carrito-container-active {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    #lista-carrito{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow: scroll;
+    }
+    .elemento-carrito {
+        list-style: none;
+        margin: 10px;
+        font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100px;
+        height: 240px;
+        border-radius: 8px;
+        border: 1px solid black;
+        img{
+            width: 80px;
+            height: 80px;
+        }
+        button{
+            width: 20px;
+            height: 40px;
+        }
+
+        .eliminar{ 
+            img{
+                width:10px;
+                height: 20px;
+            }
+        }
+    
+    }
+
+    #openCarrito{
+        background-color: transparent;
+        border-radius: 20px;
+        span{
+        font-size: 24px;}
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+

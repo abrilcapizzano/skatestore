@@ -1,0 +1,124 @@
+[
+    {
+        "nombre": "Remera Azul",
+        "precio": 3000,
+        "id": 1,
+        "img": "https://www.digitalsport.com.ar/files/products/5f28411d5cabf-520358-500x500.jpg",
+        "talle": "M",
+        "cantidad": 1,
+        "stock": 10
+    },
+    {
+        "nombre": "Remera Roja",
+        "precio": 3000,
+        "id": 2,
+        "img": "https://imagesa1.lacoste.com/dw/image/v2/BCWL_PRD/on/demandware.static/-/Sites-master/default/dw7c296c1f/TH6709_240_20.jpg?imwidth=915&impolicy=product",
+        "talle": "M",
+        "cantidad": 1,
+        "stock": 10
+
+    },
+    {
+        "nombre": "Remera Rosa",
+        "precio": 3000,
+        "id": 3,
+        "img": "https://drifters.com.ar/uploads/product_image/25354/650w_DriftersPDP_APP_VN000GGG00-YUH_Shot1.jpg",
+        "talle": "L",
+        "cantidad": 1,
+        "stock": 10
+
+    },
+    {
+        "nombre": "Remera Verde",
+        "precio": 3000,
+        "id": 7,
+        "img": "https://http2.mlstatic.com/D_NQ_NP_791217-MLA47630098451_092021-O.jpg",
+        "talle": "M",
+        "cantidad": 1,
+        "stock": 10
+
+    },
+    {
+        "nombre": "Remera This Is Bp Bull",
+        "precio": 3000,
+        "id": 4,
+        "img": "../img/remera1.jpg",
+        "talle": "S",
+        "cantidad": 1,
+        "stock": 10
+
+    },
+    {
+        "nombre": "Remera This Is Bp Bull",
+        "precio": 3000,
+        "id": 5,
+        "img": "../img/remera2.jpg",
+        "talle": "XL",
+        "cantidad": 1,
+        "stock": 10
+
+    },
+    {
+        "nombre": "Remera This Is Bp Bull",
+        "precio": 3000,
+        "id": 6,
+        "img": "../img/remera3.jpg",
+        "talle": "L",
+        "cantidad": 1,
+        "stock": 10
+    },
+    {
+        "nombre": "Pantalon",
+        "precio": 9000,
+        "id": 10,
+        "img": "https://street47.vtexassets.com/arquivos/ids/175327-800-auto?v=637826230793800000&width=800&height=auto&aspect=true",
+        "talle": "M",
+        "cantidad": 1,
+        "stock": 10
+    },
+    {
+        "nombre": "Camisa",
+        "precio": 7000,
+        "id": 11,
+        "img": "https://equus.vtexassets.com/arquivos/ids/193047-800-auto?v=637197098806570000&width=800&height=auto&aspect=true",
+        "talle": "S",
+        "cantidad": 1,
+        "stock": 10
+    },
+    {
+        "nombre": "Campera",
+        "precio": 1000,
+        "id": 12,
+        "img": "https://equus.vtexassets.com/arquivos/ids/205655-800-auto?v=637516945504130000&width=800&height=auto&aspect=true",
+        "talle": "L",
+        "cantidad": 1,
+        "stock": 10
+    },
+    {
+        "nombre": "Zapatillas",
+        "precio": 12000,
+        "id": 13,
+        "img": "https://www.digitalsport.com.ar/files/products/5c5d8bde6cecf-181658-500x500.jpg",
+        "talle": "M",
+        "cantidad": 1,
+        "stock": 10
+    },
+    {
+        "nombre": "Medias",
+        "precio": 700,
+        "id": 14,
+        "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/063/239/products/medias-van-gogh1-f76040b8754a23fc9b15647246873183-1024-1024.jpg",
+        "talle": "Xl",
+        "cantidad": 1,
+        "stock": 10
+    },
+    {
+        "nombre": "Sombrero",
+        "precio": 1500,
+        "id": 16,
+        "img": "https://imagesa1.lacoste.com/dw/image/v2/BCWL_PRD/on/demandware.static/-/Sites-master/default/dw47a652d3/RK2056_HDE_20.jpg?imwidth=915&impolicy=product",
+        "talle": "M",
+        "cantidad": 1,
+        "stock": 10
+    }
+]
